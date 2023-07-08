@@ -1,0 +1,96 @@
+ /* .container{
+    border: 2px solid black (200,90,80,70);
+    width:100px;
+    height: 100px;
+    background-color: yellow;
+    margin-left:400px ;
+    padding:50px;
+    border-radius:50px ;
+    box-shadow:2px 2px 2px 2px red; 
+/* } */
+
+.eyes{
+     border:2px black;
+     height:100px;
+     width: 100px;
+     border-color: transparent transparent red transparent;
+     border-radius:0px 0px 0px 20px ;
+}  
+
+.face{
+    height:250px;
+    width:250px;
+    background-color: yellow;
+    border-radius:500%;
+    position:absolute;
+    margin-left:550px;
+    border:2px solid black;
+}
+.reye{
+    height:50px;
+    width: 50px;
+    background-color: black;
+    border-radius:200%;
+    position: absolute;
+    top:60px;
+    left:30px;
+    border: 7px solid whitesmoke;
+}
+.leye{
+    height:50px;
+    width:50px;
+    background-color: black;
+    border-radius: 150%;
+    position: absolute;
+    top:60px;
+    left:30px;
+    margin-left:120px;
+    border: 7px solid whitesmoke;
+}
+.nose{
+    background-color: rgb(37, 29, 32);
+    height: 17px;
+    width: 20px;
+    border-radius: 100px 100px 0px 0px;
+    top:125px;
+    left:115px;
+    position: absolute;
+    border: 1px solid rgb(99, 97, 97);
+}
+.mouth{
+    height:50px;
+    width: 100px;
+    border:50px black;
+    background-color: rgb(255, 0, 0);
+    position: absolute;
+    top:169px;
+    left:80px;
+    border-radius:0px 0px 70px 60px;
+    overflow: hidden;
+    border: 1.5px solid black;
+}
+.tongue{
+    background-color: pink;
+    width:75px;
+    height:40px;
+    border-radius:50px;
+    top:20px;
+    left:9px;
+    position: absolute;
+
+
+}
+.reye:hover{
+    background-color: rgba(103, 231, 253, 0.856);
+    transform: scale(1);
+}
+.leye:hover{
+    background-color:rgba(12, 197, 230, 0.856) ;
+    transform:scale(1)
+}
+.face{
+    margin-top: 200px;
+    
+
+}
+
